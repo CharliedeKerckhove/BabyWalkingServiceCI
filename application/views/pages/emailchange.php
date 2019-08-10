@@ -15,4 +15,4 @@
 <h1>You have changed your email!</h1><br>
 <h2>Please log in with your new email to return to your personal area!</h2><br>
 <h2>Relaxation starts now</h2><br> 
-<img id = "registrationimg" src = "images/relaxation.jpg"/>
+<img id = "registrationimg" src = "assets/images/relaxation.jpg"/>
