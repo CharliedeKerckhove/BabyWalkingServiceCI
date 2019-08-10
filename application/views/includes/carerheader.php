@@ -18,7 +18,7 @@
 
 <body> 
 <header>
-    <a href = "carer.php?p=carerarea"><img  alt = "baby walking service logo" id = "logo" src = "assets/images/logo.png"/></a>
+    <a href = "<?php echo base_url();?>carerarea"><img  alt = "baby walking service logo" id = "logo" src = "assets/images/logo.png"/></a>
     <h3 class = "loginBtn"><a href='includes/logout.php'>Log out &nbsp;</a> <i class="fal fa-user-circle"></i></h3>
 
 </header>
