@@ -59,7 +59,7 @@ if(isset($_POST['email']) || isset($_POST['password'])){
     mail($to,$subject,$message,$headers);*/
 
 
-    echo "<script> window.location.assign('index.php?p=registersuccess'); </script>";
+    echo "<script> window.location.assign('registersuccess'); </script>";
     }
 
 
@@ -68,7 +68,7 @@ if(isset($_POST['email']) || isset($_POST['password'])){
 ?>
 <div class = "content">
 <h1>Register</h1>
-	<form class="regform" action="index.php?p=register" method="post">
+	<form class="regform" action="register" method="post">
         <?php if(!empty($error)){
         echo '<h2 class="errormsg">Error: '.$error.'<br><br></h2>';} ?>
         <div id = "errors"></div>

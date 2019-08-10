@@ -36,5 +36,5 @@
             <h5 id = "Answers">As long as we have permission and know the child's allergies we will happily prepare one meal per booking.</h5>
         </div>
     </div>
-<button class = "booknow" id = "aboutbookbtn"><a href = "index.php?p=booking">Book Now</a></button>
+<button class = "booknow" id = "aboutbookbtn"><a href = "booking">Book Now</a></button>
 </div>

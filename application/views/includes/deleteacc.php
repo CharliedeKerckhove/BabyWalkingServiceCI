@@ -12,5 +12,5 @@ require_once('../includes/db.php');
 	$result2->bindParam(':id', $_SESSION['carerData']['CarerID']);
     $result2->execute();
     
-	echo "<script> window.location.assign('../index.php?p=home'); </script>";
+	echo "<script> window.location.assign('../home'); </script>";
 ?>

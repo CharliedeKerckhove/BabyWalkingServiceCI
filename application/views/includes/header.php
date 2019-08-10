@@ -53,7 +53,7 @@ if(isset($_POST['email']) || isset($_POST['password'])){
 
 <body> 
 <header>
-    <a href = "index.php?p=home"><img alt = "baby walking service logo" id = "logo" src = "assets/images/logo.png"/></a>
+    <a href = "home"><img alt = "baby walking service logo" id = "logo" src = "assets/images/logo.png"/></a>
     <?php if(!empty($error)){
         echo '<h2 class="errormsg">Error: '.$error.'<br><br></h2>';} ?>
     <h3 class = "loginBtn" onclick = "document.getElementById('id01').style.display='block'" >Log in &nbsp; <i class="fal fa-user-circle"></i></h3>
@@ -72,7 +72,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form_modal
           <input type="password" placeholder="Enter Password" name="password" class = "logmargin" required>
 </div>
           <button class = "booknow" id = "submitbtn" type="submit">Login</button><br>
-          <button class = "altbtn"><a href = "index.php?p=register">Register</a></button>
+          <button class = "altbtn"><a href = "register">Register</a></button>
         </div>
 
         <div class="container" style="background-color:#f1f1f1">

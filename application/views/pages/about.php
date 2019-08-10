@@ -5,8 +5,8 @@
         <img id = "aboutimg" src = "assets/images/pramyoga.jpg"/>
     </div>
     <div id = "aboutbtncont">
-        <button class = "altbtn" id = "aboutreviewbtn"><a href = "index.php?p=ourreviews">Our Reviews</a></button>
-        <button class = "altbtn" id = "aboutteambtn"><a href = "index.php?p=ourteam">Meet Our Team</a></button>
+        <button class = "altbtn" id = "aboutreviewbtn"><a href = "ourreviews">Our Reviews</a></button>
+        <button class = "altbtn" id = "aboutteambtn"><a href = "ourteam">Meet Our Team</a></button>
     </div>
-        <button class = "booknow" id = "aboutbookbtn"><a href = "index.php?p=booking">Book Now</a></button>
+        <button class = "booknow" id = "aboutbookbtn"><a href = "booking">Book Now</a></button>
 </div>

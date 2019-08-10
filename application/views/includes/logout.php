@@ -9,5 +9,5 @@ session_unset($_SESSION['loggedin']);
 //Destroy Session
 session_destroy();
 //Return Home
-echo "<script> window.location.assign('../index.php?p=home'); </script>";
+echo "<script> window.location.assign('../home'); </script>";
 ?>

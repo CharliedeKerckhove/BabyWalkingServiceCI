@@ -23,5 +23,5 @@
     <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsu8m97OtYsQ4iPblsHdLuAwfcDhmOca4&callback=initMap" async defer>
     </script>
-    <button class = "booknow" id = "locationbookbtn"><a href = "index.php?p=booking">Book Now</a></button>
+    <button class = "booknow" id = "locationbookbtn"><a href = "booking">Book Now</a></button>
 </div>  

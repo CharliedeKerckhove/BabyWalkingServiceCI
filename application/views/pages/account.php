@@ -38,7 +38,7 @@ if(isset($_POST['email'])){
     $result->execute();
     
     $success = "Email Changed";
-    echo "<script> window.location.assign('index.php?p=emailchange'); </script>";
+    echo "<script> window.location.assign('emailchange'); </script>";
 }
 
 if(isset($_POST['curpassword']) && isset($_POST['newpassword'])){

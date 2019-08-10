@@ -19,5 +19,5 @@
             <td>&#163; 60</td>
         </tr>
     </table>
-    <button class = "booknow" id = "aboutbookbtn"><a href = "index.php?p=booking">Book Now</a></button>
+    <button class = "booknow" id = "aboutbookbtn"><a href = "booking">Book Now</a></button>
 </div>
